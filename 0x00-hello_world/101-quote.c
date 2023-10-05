@@ -1,9 +1,10 @@
 #include <stdio.h>
+#include <unistd.h>
 
 /**
- * main - a C program that prints a new line, to the standard error
+ * main - Entry point
  *
- * Return: Always 0 (Success)
+ * Return: Always 1 (Success)
  */
 int main(void)
 {
