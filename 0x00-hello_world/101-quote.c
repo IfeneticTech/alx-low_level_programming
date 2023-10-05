@@ -1,13 +1,13 @@
 #include <stdio.h>
-#include <unistd.h>
-
+#include <stdlib.h>
 /**
  * main - Entry point
  *
- * Return: Always 1 (Success)
+ * Return: 1 (error)
  */
 int main(void)
 {
-	write(2, "that piece of art is useful\" - Dora Korpar, 2015-10-19\n", 59);
+	char *str = "and that piece of art is useful\" - Dora Korpar, 2015-10-19\n";
+	fprintf(stderr, "%s", str);
 	return (1);
 }
