@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_chessboard - prints the chessboard
- * @a: pointer ro pieces to print
- *
- * Return: void
+ * print_chessboard - Entry point
+ * @a: array
+ * Return: Always 0 (Success)
  */
 void print_chessboard(char (*a)[8])
 {
-	int g, k;
+	int g;
+	int k;
 
 	for (g = 0; g < 8; g++)
 	{
